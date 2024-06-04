@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>com.workout.streams.loop</groupId>
+    <artifactId>streams-vs-loops</artifactId>
+    <version>1.0-SNAPSHOT</version>
+
+    <properties>
+        <jmh.core.version>1.37</jmh.core.version>
+        <jmh.gen.annotation.version>1.37</jmh.gen.annotation.version>
+    </properties>
+
+    <dependencies>
+        <dependency>
+            <groupId>org.openjdk.jmh</groupId>
+            <artifactId>jmh-core</artifactId>
+            <version>${jmh.core.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>org.openjdk.jmh</groupId>
+            <artifactId>jmh-generator-annprocess</artifactId>
+            <version>${jmh.gen.annotation.version}</version>
+        </dependency>
+    </dependencies>
+    
+</project>
